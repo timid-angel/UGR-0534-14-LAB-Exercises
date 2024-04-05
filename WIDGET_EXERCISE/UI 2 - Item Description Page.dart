@@ -11,7 +11,7 @@ void main() {
 }
 
 class SecondUI extends StatelessWidget {
-  final String money = "8.9";
+  final String money = "900";
   const SecondUI({super.key});
 
   @override
@@ -116,13 +116,17 @@ class SecondUI extends StatelessWidget {
             children: [
               Text('Variant',
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
-              Text('Size: XS', style: TextStyle(fontSize: 14)),
+              const SizedBox(
+                height: 4,
+              ),
+              Text('Size: XS', style: TextStyle(fontSize: 15)),
+              SizedBox(height: 2),
               Row(
                 children: [
                   Container(
                     margin: EdgeInsets.fromLTRB(5, 0, 10, 5),
                     decoration: BoxDecoration(
-                      color: Colors.blue,
+                      color: Colors.cyan,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: SizedBox(
@@ -206,13 +210,15 @@ class SecondUI extends StatelessWidget {
                   ),
                 ],
               ),
-              Text('Color: Red', style: TextStyle(fontSize: 14)),
+              SizedBox(height: 4),
+              Text('Color: Red', style: TextStyle(fontSize: 15)),
+              SizedBox(height: 2),
               Row(
                 children: [
                   Container(
                     margin: EdgeInsets.fromLTRB(5, 0, 10, 5),
                     decoration: BoxDecoration(
-                      color: Colors.blue,
+                      color: Colors.cyan,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: SizedBox(
@@ -254,7 +260,7 @@ class SecondUI extends StatelessWidget {
                       height: 30,
                       child: Center(
                         child: Text(
-                          'Blue',
+                          'Cyan',
                           style: TextStyle(color: Colors.white),
                         ),
                       ),
@@ -301,21 +307,39 @@ class SecondUI extends StatelessWidget {
         ),
         Padding(
           padding: EdgeInsets.all(20),
-          child: Container(
-              padding: EdgeInsets.all(10),
-              decoration: BoxDecoration(
-                border: Border.all(
-                  color: Colors.blue,
-                  width: 4,
+          child: Row(
+            children: [
+              Padding(
+                padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
+                child: Icon(
+                  Icons.message_rounded,
+                  size: 30,
+                  color: Colors.cyan,
                 ),
-                borderRadius: BorderRadius.circular(10),
               ),
-              child: Center(
-                child: Text(
-                  "Add to shopping cart",
-                  style: TextStyle(fontSize: 20, color: Colors.blue),
+              Expanded(
+                child: TextButton(
+                  onPressed: () {},
+                  child: Container(
+                    padding: EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Colors.cyan,
+                        width: 4,
+                      ),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Center(
+                      child: Text(
+                        "Add to shopping cart",
+                        style: TextStyle(fontSize: 20, color: Colors.cyan),
+                      ),
+                    ),
+                  ),
                 ),
-              )),
+              ),
+            ],
+          ),
         )
       ],
     ));
