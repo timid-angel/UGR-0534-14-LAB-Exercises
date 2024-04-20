@@ -3,7 +3,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
-import 'package:local/post_model.dart';
+import 'package:provider_post_exercise/post_model.dart';
 import 'package:provider/provider.dart';
 
 void main() async {

@@ -1,4 +1,4 @@
-package com.example.local
+package com.example.bloc_post_exercise
 
 import io.flutter.embedding.android.FlutterActivity
 

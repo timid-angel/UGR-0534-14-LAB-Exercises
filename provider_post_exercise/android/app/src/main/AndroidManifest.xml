@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="local"
+        android:label="provider_post_exercise"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
