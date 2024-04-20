@@ -1,4 +1,4 @@
-# bloc_practice
+# bloc_counter_exercise
 
 A new Flutter project.
 

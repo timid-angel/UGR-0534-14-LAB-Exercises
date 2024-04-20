@@ -1,4 +1,4 @@
-# local
+# riverpod_counter_exercise
 
 A new Flutter project.
 

@@ -1,4 +1,4 @@
-package com.example.bloc_practice
+package com.example.bloc_counter_exercise
 
 import io.flutter.embedding.android.FlutterActivity
 

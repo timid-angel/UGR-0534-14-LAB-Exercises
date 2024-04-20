@@ -1,4 +1,4 @@
-# local
+# provider_counter_exercise
 
 A new Flutter project.
 

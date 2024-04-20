@@ -1,6 +1,6 @@
 {
-    "name": "local",
-    "short_name": "local",
+    "name": "provider_counter_exercise",
+    "short_name": "provider_counter_exercise",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,6 +1,6 @@
 {
-    "name": "bloc_practice",
-    "short_name": "bloc_practice",
+    "name": "bloc_counter_exercise",
+    "short_name": "bloc_counter_exercise",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
